@@ -51,12 +51,22 @@ margin-bottom: 20px;
 html, body { height: 100%; }
 
 body {
-	font:16px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color: #666;
+	font-size: 20px;
+	font-family: 'Merriweather','Georgia',serif;
+	font-weight: 400;
+	color: #222;
+	color: hsla(0,0%,0%,0.9);
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizeLegibility;
+	font-kerning: normal;
+    -moz-font-feature-settings: "kern", "liga", "clig", "calt";
+    -ms-font-feature-settings: "kern", "liga", "clig", "calt";
+    -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
+    font-feature-settings: "kern", "liga", "clig", "calt";
 }
+body p {
 
+}
 h1 {
 	font-size: 30px;
 	letter-spacing: -1px;
@@ -65,7 +75,8 @@ h1 {
 }
 
 h2 {
-	font: italic 19px/1.3em Georgia,serif;
+	font-size: 19px/1.3em;
+	font-family: 'Merriweather','Georgia',serif;;
 	color: #bbb;
 }
 
@@ -98,12 +109,11 @@ h2 {
 
 .profile h2 {
 	font-size: 20px;
-	  font-weight: 300;
-	  color: #aaa;
-	  margin-top: 10px;
-	  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	  font-style: normal;
-
+	font-weight: 300;
+	color: #aaa;
+	margin-top: 10px;
+	font-family: 'Merriweather','Georgia',serif;;
+	font-style: normal;
 }
 
 nav.main-nav {
@@ -137,7 +147,7 @@ nav.main-nav a.cta {
 }
 
 #wrapper {
-  max-width: 800px;
+  max-width: 768px;
   margin: 0 auto;
   padding: 60px 40px 100px 40px;
 }
@@ -160,7 +170,6 @@ nav.main-nav a.cta {
 a,
 #title,
 #post-list a:hover,
-#post-list li:hover .dates,
 #title:hover {
 	text-decoration: none;
 	color: #5badf0;
@@ -187,6 +196,11 @@ li	{  list-style-position:inside; }
 
 /* Line Height */
 #post-body, p { line-height:1.7; }
+#post-body h2 {
+	font-size: 24px/1.5;
+	font-family: 'Merriweather','Georgia',serif;
+	font-weight: 600;
+}
 
 b, strong { font-weight: 500;
   color: #1E2025; }
@@ -217,25 +231,33 @@ em, i { font-style: italic; }
 }
 
 .home h2 {
-	font: italic 19px/1.3em Georgia,serif;
+	font-family: 'Merriweather','Georgia',serif; 
+	font-size: 19px/1.3em;
 	color: #bbb;
 }
 
 .post header {
-	text-align:center;
-
+	display: block;
 }
 
 .post h1 {
 	margin-bottom: 0px;
 	color: #222;
-	font: 300 32px/1.4em "Helvetica Neue", Helvetica,Arial,sans-serif;
+	color: inherit;
+    font-family: 'Merriweather','Georgia',serif;
+    font-weight: 900;
+    text-rendering: optimizeLegibility;
+    font-size: 2.5rem;
+    line-height: 1.1
 }
 
 .post h2 {
-	margin-bottom: 40px;
-	  font: 300 24px/1.5 "Helvetica Neue",Helvetica,Arial,sans-serif;
-	  color: #111;
+	margin-top: 40px;
+	margin-bottom: 15px;
+	font-weight: 300;
+	font-size: 24px;
+	font-family: 'Merriweather','Georgia', serif;
+	color: #111;
 }
 
 .post h2.subtitle {
@@ -245,7 +267,7 @@ em, i { font-style: italic; }
 
 .post h2.headline {
 	/*font: italic 22px/1.3em Georgia,serif;*/
-	font: normal 13px/1.5em "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font: normal 13px/1.5em 'Merriweather','Georgia',serif;
 	margin: -5px 0 40px 0;
 	color: #b2b9be;
 	  font-size: 13px;
@@ -255,11 +277,10 @@ em, i { font-style: italic; }
 	  display: inline-block;
 }
 
-#post-list h2 {
-	font: normal 17px/1.5em "Helvetica Neue",Helvetica,Arial,sans-serif;
-	color: #aaa;
-	max-width: 400px;
-	margin-top: 2px;
+#post-list .post-description {
+	font: normal 17px/1.5em 'Merriweather','Georgia',serif;
+	color: #222;
+	margin-top: 5px;
 }
 
 h3, h4, h5 { color:#333; }
@@ -297,10 +318,9 @@ hr {
 	background: #eee;
 }
 
-span.code { font-family:Menlo, Monaco, Courier; background-color:#EEE; font-size:14px; }
+span.code { font-family: monospace; background-color:#EEE; font-size:14px; }
 
 pre	{
-	font-family:Menlo, Monaco, Courier;
 	white-space:pre-wrap;
 	/*border: 1px solid #ddd;*/
 	padding:20px;
@@ -309,7 +329,7 @@ pre	{
 	overflow:auto;
 	border-radius: 3px;
 	background: #272b2d;
-	  font-family: 'Source Code Pro',Menlo,monospace;
+	  font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
 	  font-size: 13px;
 	  line-height: 1.5em;
 	  font-weight: 500;
@@ -382,7 +402,6 @@ Post List
 #post-list {
 	margin-bottom: 0;
 }
-
 #post-list li,#archive-list li {
 	border-top: 1px solid #eee;
 	padding-top: 20px;
@@ -398,14 +417,18 @@ Post List
 #post-list a {
 	color: #333;
 	display: block;
-	font: bold 19px/1.7 "Helvetica Neue",helvetica,Arial,sans-serif;
+	font-family: 'Merriweather','Georgia',serif;
+	font-weight: 900;
+    text-rendering: optimizeLegibility;
+    font-size: 1.4427rem;
+    line-height: 1.1;
 }
 
 #post-list .dates {
-	float: right;
-	position: relative;
+	float: none;
+	position: block;
 	top: 1px;
-	font: 300 17px/1.8 "Helvetica Neue",helvetica,Arial,sans-serif;
+	font: 300 17px/1.8 'Merriweather','Georgia',serif;
 	color: #bbb;
 }
 
@@ -475,7 +498,7 @@ Post List
 }
 
 #sharing {
-	float: right;
+	text-align: center;
 	margin: -2px;
 }
 
@@ -547,7 +570,7 @@ h1.archive {
 
 h2.month {
 	width: 100%;
-	font: bold 13px/1 "Helvetica Neue",helvetica,Arial,sans-serif;
+	font: bold 13px/1 'Merriweather','Georgia',serif;
 	text-transform: uppercase;
 	margin-top: 40px;
 	margin-bottom: 10px;
@@ -561,7 +584,7 @@ h2.month {
 
 #archive-list a {
 	display: block;
-	font: bold 17px/1.7 "Helvetica Neue",helvetica,Arial,sans-serif;
+	font: bold 17px/1.7 'Merriweather','Georgia',serif;
 	color: #333;
 }
 
@@ -569,11 +592,11 @@ h2.month {
 	float: right;
 	position: relative;
 	top: 1px;
-	font: 300 17px/1.7 "Helvetica Neue",helvetica,Arial,sans-serif;
+	font: 300 17px/1.7 'Merriweather','Georgia',serif;
 	color: #bbb;
 }
 
-#archive-list li a:hover,#archive-list li:hover .dates {
+#archive-list li a:hover {
 	color: #5694f1;
 }
 
@@ -589,12 +612,12 @@ h2.month {
 
 #post-list.archive.readmore h3{
 
-	  font: 400 20px "Helvetica Neue", Helvetica,Arial,sans-serif;
+	  font: 400 20px 'Merriweather','Georgia',serif;
 	  margin-bottom: 30px;
 }
 
 #post-list.archive.readmore a{
-	font: 400 16px/1.6 "Helvetica Neue",helvetica,Arial,sans-serif;
+	font: 400 16px/1.6 'Merriweather','Georgia',serif;
 	color: #5694f1;
 }
 
@@ -603,7 +626,7 @@ h2.month {
 }
 
 #post-list.archive.readmore .dates{
-	font: 300 16px/1.6 "Helvetica Neue",helvetica,Arial,sans-serif;
+	font: 300 16px/1.6 'Merriweather','Georgia',serif;
 }
 #sharing a.facebook {
   background: #4361b3;
@@ -662,8 +685,9 @@ a.symbol:hover {
 }
 
 code { 
-	font-family:Menlo, Monaco, Courier; 
-	background-color:#EEE; font-size:14px; 
+	font-family: monospace, serif; 
+	background-color:#EEE; font-size:16px; 
+	line-height: 1.7;
 	padding: 4px; 
-	font-weight: 600;
+	font-weight: normal;
 }
