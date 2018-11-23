@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://ijsucceed.com/"
+baseurl = "/"
 languageCode = "en-uk"
 title = "a Backend Engineer"
 theme = "cactus-theme-master"
