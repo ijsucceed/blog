@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>a Backend Engineer</title>
+    <link>/</link>
+    <description>Recent content on a Backend Engineer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Sun, 30 Sep 2018 04:32:04 +0000</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to start a programming blog in Nigeria (2018)</title>
+      <link>/posts/how-to-start-a-programming-blog/</link>
+      <pubDate>Sun, 30 Sep 2018 04:32:04 +0000</pubDate>
+      
+      <guid>/posts/how-to-start-a-programming-blog/</guid>
+      <description>Are you a web developer? looking forward to start your own programming blog. Or maybe you&amp;rsquo;re wondering how can a developer do blogging.
+Some developers don&amp;rsquo;t like the idea of blogging. But as a software developer in Nigeria, or anywhere in the world. One of the best things you can do to accelerate your carrier, is to start publishing blog post.
+Blogging has always been the best way to get your content out there.</description>
+    </item>
+    
+    <item>
+      <title>Best Blogging Tools for Web developers</title>
+      <link>/posts/best-blogging-platform-for-developers/</link>
+      <pubDate>Thu, 27 Sep 2018 04:30:00 +0000</pubDate>
+      
+      <guid>/posts/best-blogging-platform-for-developers/</guid>
+      <description>If you ask me today. When is the best time to blog as a developer, I will say, Now.
+I first heard the word &amp;ldquo;blog&amp;rdquo; in 2014. But I really don&amp;rsquo;t know what it is, nor how it works. Though I was interested in giving out my content to people so they could read the few things I know.
+There&amp;rsquo;s something good knowing you have a book with several pages hosted on the internet, where you share everything you learn in your day to day life.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>/contact/</link>
+      <pubDate>Mon, 17 Sep 2018 05:14:48 +0000</pubDate>
+      
+      <guid>/contact/</guid>
+      <description>As a freelance web developer, I will love to hear from you.
+Need a website? or want to work with me. You can chat me up on Telegram.
+I am also on twitter.
+Feel free to ask me any question on web development. I will love to help.
+For all other inquiries, send me a mail.
+Ikwuje24@gmail.com</description>
+    </item>
+    
+    <item>
+      <title>I&#39;m Jeremiah Succeed</title>
+      <link>/about/</link>
+      <pubDate>Mon, 17 Sep 2018 05:14:48 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>A Web developer in Abuja with deep experience on web data and APIs. I build and design modern websites with different tools, mostly JavaScript and PHP. Just to let you know, I do create and sell website components.
+I write on modern web development and the good things. If you like the contents on this blog, I encourage you to join my mailing list to get my fresh contents.
+Need a website?</description>
+    </item>
+    
+    <item>
+      <title>How to Check empty input in Javascript</title>
+      <link>/posts/empty-input-in-javascript/</link>
+      <pubDate>Sat, 19 May 2018 15:38:49 +0100</pubDate>
+      
+      <guid>/posts/empty-input-in-javascript/</guid>
+      <description>If you search on the internet on how to prevent a user from submitting empty data on a form, what you will mostly find is this.
+var input = document.getElementById(&#39;user_input&#39;); if ( input.value == &amp;quot;&amp;quot; ) { alert(&amp;quot;Empty&amp;quot;); }  Now, while this work in most case, it&amp;rsquo;s only half the solution. The problem with this is that it sees white space as a data. Remember in computer science space is consider a character, though invisible.</description>
+    </item>
+    
+    <item>
+      <title>Node.js - How to display content in HTML format</title>
+      <link>/posts/how-to-display-html-content-on-nodejs/</link>
+      <pubDate>Mon, 30 Apr 2018 09:12:52 +0000</pubDate>
+      
+      <guid>/posts/how-to-display-html-content-on-nodejs/</guid>
+      <description>I think this is my second post on Node.js.
+In this post we are going to see how to display contents in HTML on a browser with Node.js.
+Let’s start by creating a directory ( folder ) where our program will live. I’m going to call this directory project2, since it is our second project.
+$ mkdir project2  Navigate to the folder you just created.
+$ cd project2  Now inside the folder create a new file, name it app.</description>
+    </item>
+    
+    <item>
+      <title>How to get the total numbers of Files in a Folder with Node.js</title>
+      <link>/posts/numbers-of-files-in-a-folder/</link>
+      <pubDate>Mon, 30 Apr 2018 01:05:12 +0100</pubDate>
+      
+      <guid>/posts/numbers-of-files-in-a-folder/</guid>
+      <description>When working with files and directories in Node.js, the built in fs module provides an api for interacting with the file system. All file system have asynchronous and synchronous nature.
+The fs module comes with a method readadir that enable Node.js to read the content in a directory.
+The code below get the total number of files in a directory.
+var fs = require(&#39;fs&#39;); fs.readdir ( &#39;path/to/your/folder&#39;, (error, files) =&amp;gt; { let totalFiles = files.</description>
+    </item>
+    
+    <item>
+      <title>Node.Js - Your first web application</title>
+      <link>/posts/writing-your-first-program-nodejs/</link>
+      <pubDate>Sun, 29 Apr 2018 15:04:29 +0000</pubDate>
+      
+      <guid>/posts/writing-your-first-program-nodejs/</guid>
+      <description>Some basic knowledge of HTML, CSS, and JavaScript will be good for you.
+If you don&amp;rsquo;t know what is Node.js. Node.js is framework use for writing server side application with JavaScript. This means that you can writes a complete web application with only JavaScript. With Node.js you don&amp;rsquo;t need to write web applications using different web enable languages. With just a single language, you can do both the front and the back things.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/resume/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resume/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

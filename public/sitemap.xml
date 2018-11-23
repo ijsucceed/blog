@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+    <url>
+      <loc>/posts/how-to-start-a-programming-blog/</loc>
+      <lastmod>2018-09-30T04:32:04+00:00</lastmod>
+    </url>
+  
+    <url>
+      <loc>/posts/best-blogging-platform-for-developers/</loc>
+      <lastmod>2018-09-27T04:30:00+00:00</lastmod>
+    </url>
+  
+    <url>
+      <loc>/contact/</loc>
+      <lastmod>2018-09-17T05:14:48+00:00</lastmod>
+    </url>
+  
+    <url>
+      <loc>/about/</loc>
+      <lastmod>2018-09-17T05:14:48+00:00</lastmod>
+    </url>
+  
+    <url>
+      <loc>/posts/empty-input-in-javascript/</loc>
+      <lastmod>2018-05-19T15:38:49+01:00</lastmod>
+    </url>
+  
+    <url>
+      <loc>/posts/how-to-display-html-content-on-nodejs/</loc>
+      <lastmod>2018-04-30T09:12:52+00:00</lastmod>
+    </url>
+  
+    <url>
+      <loc>/posts/numbers-of-files-in-a-folder/</loc>
+      <lastmod>2018-04-30T01:05:12+01:00</lastmod>
+    </url>
+  
+    <url>
+      <loc>/posts/writing-your-first-program-nodejs/</loc>
+      <lastmod>2018-04-29T15:04:29+00:00</lastmod>
+    </url>
+  
+    <url>
+      <loc>/resume/</loc>
+    </url>
+  
+    <url>
+      <loc>/categories/</loc>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+      <loc>/posts/</loc>
+      <lastmod>2018-09-30T04:32:04+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+      <loc>/tags/</loc>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+      <loc>/</loc>
+      <lastmod>2018-09-30T04:32:04+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+</urlset>
