@@ -1,7 +1,7 @@
 # Site settings
 baseurl = "/"
 languageCode = "en-uk"
-title = "a Backend Engineer"
+title = "Web API and Data Integeration"
 theme = "cactus-theme-master"
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = "UA-99057145-6"
@@ -10,8 +10,8 @@ disqusShortname = "ijsucceed"
 
 [params]
 	name = ""
-	description = "a blog by Jeremiah Succeed. Learn data and API integeration for modern web application."
-	bio = "a Backend Engineer and Web Advocate."
+	description = "Learn data and API integeration for modern web application."
+	bio = ""
 	# Enter optionally your twitter account
 	twitter = "ijsucceed"
 	enableRSS = true
@@ -26,7 +26,7 @@ disqusShortname = "ijsucceed"
 
 	# Navigation links
 	home = ""
-	subscribe = "Fresh content"
+	subscribe = ""
 	# Pagination links
 	olderPosts = ""
 	newerPosts = ""
