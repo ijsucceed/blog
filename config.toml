@@ -8,14 +8,14 @@ theme = "onepress"
 googleAnalytics = "UA-99057145-6"
 # Disable comments by leaving disqusShortname empty
 disqusShortname = "ijsucceed"
-copyright = "Copyright © 2019, Jeremiah Succeed; all rights reserved."
+copyright = "Copyright © 2019, Jeremiah Succeed; All Rights Reserved."
 canonifyURLS = true
 paginate = 12
 
 [params]
 	author = "Jeremiah Succeed"
         bio = "Fullstack web developer and Templates designer."
-	logo = "/images/logo.png"
+	logo = "ikwuje24@gmail.com"
 	avatar = "/images/logo.png"
 	opengraphImage = "/images/logo.png"
 	enableRSS = true

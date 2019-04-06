@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,700');
 
 /* Reset */
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article.list,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article.list,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
@@ -10,8 +10,8 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 html {
 	background: #fff !important;
-	color: #3b3b3b;
-	font-family: 'Source Sans Pro', sans-serif;
+	color: #333;
+	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
 	font-weight: 400;
 	text-rendering: optimizeLegibility;
@@ -24,20 +24,21 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	  color: #333;
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: 400;
+	color: #000;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
 		letter-spacing: 1px;
 		word-spacing: 3px;
     line-height: 1.2;
     margin: 0 0 20px;
 }
+
 h1 {
-	font-size:
+	font-size: 150%;
 }
 
 a {
-  color: #555;
+  color: #ffc518;
   text-decoration: none;
 }
 a:hover {
@@ -162,28 +163,25 @@ button, .button {
 /* ------------ */
 
 header {
-	text-align: center;
 	padding-top: 17px;
 	padding-bottom: 10px;
 }
 header img {
-	width: 48px;
-	border-radius: 50%;
+	border-radius: 2px;
 	border: none;
 }
 
 nav {
 	font-size: 10px;
-	font-family: 'Source Sans Pro', sans-serif;
-	text-align: center;
+	font-family: 'Roboto', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 1.67px;
 	line-height: 22px;
 	padding-bottom: 15px;
 }
 nav ul li {
-	display: inline;
-	padding: 0 7px;
+	display: block;
+	padding: 3px 0px;
 }
 nav li.active a {
 	border-bottom: 1px solid #5b5b5b;
@@ -216,14 +214,7 @@ aside .widgets:after {
 	max-width: 768px;
 	margin: 0 auto;
 	margin-top: 0px;
-        padding: 60px 30px 0px;
-	overflow-wrap: break-word;
-}
-#site-wrapper-centered {
-	max-width: 768px;
-	margin: 0 auto;
-	margin-top: 0px;
-        padding: 60px 30px 0px;
+    padding: 10px 15px;
 	overflow-wrap: break-word;
 }
 
@@ -232,6 +223,7 @@ aside .widgets:after {
 main {
 	width: 100%;
 	font-size: 90%;
+	margin-top: 10px;
 }
 
 main.center {
@@ -281,7 +273,7 @@ main article.single h1 {
 	font-size: 150%;
 	line-height: 1.1em;
 	margin-bottom: 0.3em;
-	font-weight: 400;
+	font-weight: 700;
 }
 
 main article.list .tags {
@@ -352,7 +344,7 @@ main article.single .description {
 }
 
 .single a {
-	border-bottom: 2px solid #000;
+	border: none;
 }
 
 .single li {
@@ -365,7 +357,7 @@ main article.single .description {
 
 .single b,
 .single strong, {
-	font-family: 'Source Sans Pro', sans-serif !important;
+	font-family: 'Roboto', sans-serif !important;
 }
 
 .single ul li,
@@ -500,6 +492,7 @@ aside .widgets .topics ul li a {
 /* FOOTER */
 /* ------------ */
 footer {
+	margin-top: 3em;
 	font-size: 12px;
 }
 
@@ -519,12 +512,8 @@ footer {
     }
     
     #site-wrapper {
-        max-width: 1140px;
-        display: flex;
-        justify-content: space-between;
+        max-width: 768px;
+        display: block;
     } 
     
-    main {
-        width: 65%;
-    }
 }
