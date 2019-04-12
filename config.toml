@@ -1,7 +1,7 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "a Website Maker"
-description = "a Blog by Jeremiah Succeed"
+title = "Web-based Software Developer and Digital Payment Consultant"
+description = "I build Web Based Software for Merchants and Business owners like you."
 config = "config.toml"
 theme = "onepress"
 # Enter your tracking code to enable Google Analytics
@@ -14,7 +14,7 @@ paginate = 12
 
 [params]
 	author = "Jeremiah Succeed"
-        bio = "Fullstack web developer and Templates designer."
+        bio = "Software Developer and Digital Payment Consultant"
 	logo = "ikwuje24@gmail.com"
 	avatar = "/images/logo.png"
 	opengraphImage = "/images/logo.png"
